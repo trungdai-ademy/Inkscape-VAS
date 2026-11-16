@@ -1,0 +1,29 @@
+{
+    "_note":  "Gói phần mềm VAS phát hành từ repo này — sinh tự động từ setup/tools-manifest.json của VAS (tools/vas-repos/make-repos.ps1). Không sửa tay.",
+    "packages":  [
+                     {
+                         "id":  "inkscape",
+                         "vasRepo":  "Inkscape-VAS",
+                         "boCai":  "thanh-phan",
+                         "title":  "Inkscape (đồ hoạ vector: chữ, sơ đồ, đồ hoạ chuyển động; xuất PNG / PDF bằng lệnh)",
+                         "version":  "1.4.4",
+                         "file":  "inkscape-1.4.4_2026-05-05_dcaf3e7-x64.7z",
+                         "url":  "https://media.inkscape.org/dl/resources/file/inkscape-1.4.4_2026-05-05_dcaf3e7-x64_mHK170m.7z",
+                         "sha256":  "C4DBD64A92628ABE7D7316C43F9325396E4D48417866027EE3D993D4F5B54C6A",
+                         "license":  "GPL-3.0-or-later (thư viện đi kèm: LGPL / GPL / MIT…)",
+                         "home":  "https://inkscape.org",
+                         "sourceCode":  "https://inkscape.org/release/inkscape-1.4.4/source/",
+                         "sources":  [
+                                         "https://media.inkscape.org/dl/resources/file/inkscape-1.4.4.tar.xz"
+                                     ],
+                         "licenseFiles":  [
+                                              "https://gitlab.com/inkscape/inkscape/-/raw/INKSCAPE_1_4_4/COPYING"
+                                          ],
+                         "sourceGaps":  "Bản Windows kèm GTK, glib, cairo, poppler, Python… (MSYS2): mã nguồn theo các gói MSYS2 / MINGW-packages tương ứng.",
+                         "note":  "Mã băm: tệp .sha256 chính thức trên media.inkscape.org.",
+                         "update":  {
+                                        "kind":  "fixed"
+                                    }
+                     }
+                 ]
+}
